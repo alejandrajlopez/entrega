@@ -1,0 +1,57 @@
+/*Damos estilos a los títulos*/
+h1{
+    color: darkslategray;
+    background-color: goldenrod;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h5{
+    color:rgb(5, 1, 7);
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+
+/*Damos estilos al texto*/
+p{
+    color:black;
+    font-size: 16pt;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 500;
+}
+/*Damos estilos al menú*/
+ul{
+    color: red;
+}
+
+li{
+    color:darkgreen;
+}
+/*Cuando vayamos a alguna sección las letras se verán verde*/
+a:link{
+    color: darkgreen;
+}
+/*Cuando hayamos visitado la sección las letras se verán de color bordo*/
+a:visited{
+    color: darkred;
+}
+/*Cuando pasemos con el mouse sobre el nombre de la sección se verá de color amarillo*/
+a:hover{
+    color:gold;
+}
+
+
+/* fondo de body*/
+body
+{
+    background-image:url(https://previews.123rf.com/images/sunnyfrog/sunnyfrog1610/sunnyfrog161000051/64525181-fondo-claro-con-copos-de-nieve-y-estrellas-ilustraci%C3%B3n-vectorial.jpg);
+    background-size: 100%;
+}
+
+
+/*Caracteristicas de primera sección*/
+ 
+.primerseccion .container h5 {
+
+    font-size: 6rem;
+}
